@@ -22,7 +22,7 @@ footer,
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 150px 0;
+  padding: 20px 150px;
 }
 
 .header-logo {
@@ -39,9 +39,14 @@ header {
   gap: 20px;
 }
 
+.link,
+.hero-para,
+button {
+  font-size: 18px;
+}
+
 .link {
   text-decoration: none;
-  font-size: 18px;
   color: #e5e7eb;
 }
 
@@ -52,7 +57,14 @@ header {
   padding: 120px 150px;
 }
 
+.hero-block {
+  display: flex;
+  align-items: center;
+}
+
 .hero-card {
+  flex: 1;
+  padding: 10px;
 }
 
 h1 {
@@ -65,7 +77,6 @@ h1 {
 }
 
 .hero-para {
-  font-size: 18px;
   color: #e5e7eb;
   margin: 0;
   margin-bottom: 18px;
@@ -76,7 +87,19 @@ button {
   border: none;
   border-radius: 8px;
   padding: 8px 30px;
-  font-size: 18px;
   font-weight: 700;
   color: #f9faf8;
+}
+
+.hero-img {
+  width: 50%;
+}
+
+.hero-img2 {
+  background: url(/images/christopher-gower-m_HRfLhgABo-unsplash.jpg) no-repeat
+    0 0;
+  background-size: cover;
+  display: block;
+  flex: 1;
+  height: 250px;
 }
